@@ -63,7 +63,7 @@ $('a#Menu1').click(function(e) {
    })       
 });*/
 
-var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
+/*var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
 var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
 
 function showPanel(panelIndex,colorCode) {
@@ -79,4 +79,19 @@ function showPanel(panelIndex,colorCode) {
     tabPanels[panelIndex].style.display="block";
     tabPanels[panelIndex].style.backgroundColor=colorCode;
 }
-showPanel(0,'#f44336');
+showPanel(0,'#f44336'); */
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
