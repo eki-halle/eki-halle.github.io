@@ -185,7 +185,7 @@ textarea.input {
 	position:absolute;
 	left:0;
 	right:0;
-	margin-top:15px;
+margin-top:15px; 
 	z-index:22;
 }
 
@@ -706,7 +706,7 @@ textarea.input {
 \*------------------------------------*/
 .opening-time {
 	padding: 40px 8% 40px;
-	background: #151515;
+	background: rgba(21, 21, 21, 0.9);
 	margin-top: 40px;
 }
 
@@ -746,7 +746,7 @@ textarea.input {
 .event .event-day {
 	position: absolute;
 	top: 0;
-	width: 60px;
+	width: 80px;
 	height: 60px;
 	background: #f36700;
 	text-align: center;
@@ -1421,12 +1421,23 @@ q {font-style: italic;}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px;
   text-align: left;
   padding: 8px;
 }
 
+.willkommenluft {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.code {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0 0.3rem;
+}
