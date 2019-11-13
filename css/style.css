@@ -1417,16 +1417,24 @@ q {font-style: italic;}
     color: #131313;
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 80%;
+.tabelle {
+  
+	
+	font-family:'Cabin', sans-serif;
+	background-color: #FFF;
+	padding-right: 10px;
+
+    font-size: 20px;
+    color: black;
+   
+
 }
 
 td, th {
-  border: 1px;
+  font-weight: 100;
   text-align: left;
   padding: 8px;
+     
 }
 
 .willkommenluft {
