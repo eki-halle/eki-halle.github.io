@@ -717,7 +717,7 @@ textarea.input {
 
 .opening-time ul li .hours {
 	float: right;
-	font-size: 14px;
+	font-size: 18px;
 	margin-top: 12px;
 	font-weight:400;
 	color:#f36500;
@@ -1423,8 +1423,7 @@ q {font-style: italic;}
 	font-family:'Cabin', sans-serif;
 	background-color: #FFF;
 	padding-right: 10px;
-
-    font-size: 20px;
+    font-size: 32px;
     color: black;
    
 
@@ -1434,7 +1433,7 @@ td, th {
   font-weight: 100;
   text-align: left;
   padding: 8px;
-    font-size: 18px;
+  font-size: 18px;
      
 }
 
@@ -1448,4 +1447,13 @@ td, th {
   padding: 0.2rem;
   border-radius: 0.2rem;
   margin: 0 0.3rem;
+}
+
+.uhrzeit {
+    opacity: 0%;
+}
+
+.bewertungen {
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
