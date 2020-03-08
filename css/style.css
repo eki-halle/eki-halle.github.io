@@ -100,7 +100,7 @@ ul,ol{
 }
 
 .section-header .title {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'CaviarDreams', cursive;
 	margin-top:0px;
 }
 
@@ -187,7 +187,7 @@ textarea.input {
 	Navigation
 \*------------------------------------*/
 #header {
-    position: absolute;
+    position: relative; /* vorhin war absolute*/
 	left:0;
 	right:0;
 	z-index:22;
@@ -238,7 +238,7 @@ textarea.input {
 
 /* --- Bottom Nav --- */
 #header #bottom-nav .container {
-	padding:10px 15px;
+	padding:5px 15px;
 	background-color:#F9F9F9;
 }
 
@@ -1305,7 +1305,7 @@ html {
     font-size: 35px;
     padding-bottom: 1em;
     padding-top: 1em;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'CaviarDreams', cursive;
 	margin-top:0px;
     
 }
@@ -1476,4 +1476,16 @@ td, th {
 
 #willkommeneki {
     font-family: CaviarDreams;
+}
+
+.eventsheadline {
+    padding-top: 30px;
+}
+
+.events {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #131313;
 }
