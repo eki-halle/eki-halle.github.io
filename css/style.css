@@ -1489,3 +1489,12 @@ td, th {
     text-align: center;
     color: #131313;
 }
+
+.tagesangebot {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.tagesangebotsize {
+    font-size: 22px;
+}
