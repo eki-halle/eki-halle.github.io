@@ -41,7 +41,7 @@
 
         <!-- Top nav -->
         <div id="top-nav">
-            <div class="container">
+            <div class="container" id="starthome">
 
                 <!-- logo -->
 
@@ -66,16 +66,17 @@
 
         <!-- Bottom nav -->
         <div id="bottom-nav">
-            <div class="container">
+            <div class="container" >
                 <nav id="nav">
 
                     <!-- nav -->
-                    <ul class="main-nav nav navbar-nav">
-                        <li><a href="#ganzoben">Home</a></li>
+                    <ul class="main-nav nav navbar-nav" >
+                        <li><a href="#starthome">Home</a></li>
                         <li><a href="#überuns">Über Uns</a></li>
                         <li><a href="#menü">MenÜ</a></li>
+                        <li><a href="#events">Events/Location</a></li>
                         <li><a href="#kontakt">Kontakt</a></li>
-                        <li><a href="#kontakt">Events/Location</a></li>
+                        
 
                     </ul>
                     <!-- /nav -->
@@ -113,7 +114,7 @@
 
             <div class="col-md-10 col-md-offset-1 text-center">
                 <div class="home-content">
-                    <h1 class="white-text" id="willkommeneki">Willkommen im Restaurant EKI</h1>
+                    <h1 class="white-text willkommen" id="willkommeneki">Willkommen<br> im<br> Restaurant EKI</h1>
                     <div class="willkommenluft">
                     </div>
                     <h4 class="white-text lead"></h4>
@@ -121,12 +122,14 @@
             </div>
 
         </div>
+        
+        
 
     </div>
     <!-- /Home -->
 
     <!-- About -->
-    <div id="about" class="section">
+    <div id="überuns" class="section">
 
         <!-- container -->
         <div class="container">
@@ -204,13 +207,14 @@
                     </div>
                 </div>
                 <!-- /Galery Slider -->
-
+                
 
             </div>
             <!-- /row -->
 
         </div>
         <!-- /container -->
+        
 
     </div>
     <!-- /About -->
@@ -2331,7 +2335,7 @@
 
     </div>
     <!-- /Reservation -->
-    <div class="bewertungen">
+    
  
         <!--
     <div id="events" class="section">
@@ -2422,6 +2426,8 @@
     </div>
    
 </div> -->
+   <div class="sliderluft">
+    </div>
         <!-- Slideshow container -->
         <div class="slideshow-container">
 
@@ -2447,7 +2453,7 @@
         </div>
 
         <!-- Dots/bullets/indicators -->
-        <div class="dot-container">
+        <div class="dot-container"   id="events">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
@@ -2455,22 +2461,39 @@
 <!--
         <div class="bewertungen">
         </div>-->
-        <div class="container">
+        <div class="container" >
         
         <div class="section-header text-center">
                    
-                    <h2 class="title eventsheadline" id="willkommeneki">Events/Location</h2>
-                </div>
+            <h2 class="title eventsheadline" id="willkommeneki">Events/Location</h2>
+        </div>
                 <!-- /section header -->
 
                 <!-- about content -->
-                <div class="col-md-12 events">
+                <div class="col-md-12 events" >
                     <p>Ihr seid auf der Suche nach einem passenden Lokal für Euer Event? Wir bieten Euch ein familiäres Ambiente und eine vielfältige Auswahl hausgemachter Speisen mit frisch ausgewählten Zutaten der Saison. Ob Betriebsfeier, Familienfeier oder ein gemütlicher Abend mit Freunden: wir bewirten Euch gerne! Zögert nicht uns telefonisch zu kontaktieren oder kommt einfach vorbei und wir besprechen alles entspannt bei einem Kaffee vor Ort.</p>
                 </div>
+            
+        <div class="col-md-12 eventsbilder2">
+        <div class="eventsbilder3"><img src="img/image09.webp" class="eventsbilderimage"></div>
+      <div class="eventsbilder3"> <img src="img/image10.webp" class="eventsbilderimage"></div>
+
+        </div>  
+            
+            <div class="col-md-12 eventsbilder2">
+ 
+     <div class="eventsbilder3"><img src="img/image12.webp" class="eventsbilderimage"></div>
+      <div class="eventsbilder3"><img src="img/image14.webp" class="eventsbilderimage"></div>
+        </div>  
+            
         </div>
-        </div>
+    
+  
+       
+
+        
         <!-- Contact -->
-        <div id="contact" class="sectionkontakt">
+        <div id="contact" >
 
             <!-- container -->
             <div class="container" id="kontakt">
@@ -2492,10 +2515,10 @@
                                 <li>
                                     <p>Follow Us:</p>
                                 </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                <li><a href="https://www.facebook.com/ekihalle" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/ekihalle/?hl=de" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.tripadvisor.de/Restaurant_Review-g187405-d19057431-Reviews-EKI_Asian_Fusion_Kitchen-Halle_Saale_Saxony_Anhalt.html" target="_blank"><i class="fa fa-tripadvisor"></i></a></li>
+                                <li><a href="https://www.google.com/maps/place/EKI+-+Asian+Fusion+Restaurant/@51.4789733,11.9775413,17z/data=!3m1!4b1!4m5!3m4!1s0x47a66344440d059d:0x8e3dd6603ab7e99f!8m2!3d51.47897!4d11.97973" target="_blank"><i class="fa fa-google"></i></a></li>
                             </ul>
                             <ul class="list-inline">
                                 <li>
@@ -2532,7 +2555,7 @@
 
         </div>
         <!-- Contact -->
-
+        
         <!-- Footer -->
         <footer id="footer">
 
