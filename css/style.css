@@ -1595,3 +1595,9 @@ color: white;
     font-family: CaviarDreams;
     font-family: CaviarDreams;
 }
+
+.responsive {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
