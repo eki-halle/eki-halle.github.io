@@ -712,9 +712,10 @@ textarea.input {
 	Opening Time
 \*------------------------------------*/
 .opening-time {
-	padding: 40px 8% 40px;
+	padding: 20px 20px 20px 20px;
 	background: rgba(21, 21, 21, 0.9);
 	margin-top: 0px;
+   
 }
 
 .opening-time ul li .day {
@@ -1584,7 +1585,7 @@ td, th {
     
 color: white;
     padding: 20px;
-    margin-top: 10px;
+    
 	background: rgba(21, 21, 21, 0.9);
 	margin-top: 0px;
 }
