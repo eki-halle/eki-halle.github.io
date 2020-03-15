@@ -1577,3 +1577,20 @@ td, th {
     font-size: 20px;
     font-family: CaviarDreams;
 }
+
+.oezeiten {
+   
+  text-align: left;
+    
+color: white;
+    padding: 20px;
+    margin-top: 10px;
+	background: rgba(21, 21, 21, 0.9);
+	margin-top: 0px;
+}
+
+.oezeitenfarbe {
+    color: white;
+    font-family: CaviarDreams;
+    font-family: CaviarDreams;
+}
