@@ -241,7 +241,7 @@ textarea.input {
 /* --- Bottom Nav --- */
 #header #bottom-nav .container {
 	padding:5px 15px;
-	background-color:#F9F9F9;
+	background-color:#ffffff;
 }
 
 .main-nav li a , .contact-nav li a {
@@ -250,7 +250,7 @@ textarea.input {
 
 .main-nav li a:hover , .contact-nav li a:hover , .main-nav li a:focus , .contact-nav li a:focus {
 	background-color:transparent;
-	color: #f36700;
+	color: #f36500;
 }
 
 .main-nav li a {
@@ -291,13 +291,13 @@ textarea.input {
 		-webkit-box-shadow: 0px 3px 10px -3px  rgba(0, 0, 0, 0.1);
 		        box-shadow: 0px 3px 10px -3px  rgba(0, 0, 0, 0.1);
 		background: #FFF;
-		border: 1px solid #ECECEC;
+		border: 1px solid #ffffff;
 		-webkit-animation:slide-in 0.3s;
 		        animation:slide-in 0.3s;
 	}
 
 	#header.fixed #bottom-nav .container {
-		background-color:#FFF;
+		background-color:#ffffff;
 	}
 }
 @-webkit-keyframes slide-in {
@@ -387,7 +387,7 @@ textarea.input {
 	}
 
 	.main-nav li a {
-		color: #fff;
+		color: #ffffff;
 	}
 
 	.contact-nav {
@@ -401,7 +401,7 @@ textarea.input {
 	}
 
 	.contact-nav li a {
-		color: #fff;
+		color: white;
 	}
 
 	.cta-nav {
