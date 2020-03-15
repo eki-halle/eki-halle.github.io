@@ -714,7 +714,7 @@ textarea.input {
 .opening-time {
 	padding: 40px 8% 40px;
 	background: rgba(21, 21, 21, 0.9);
-	margin-top: 40px;
+	margin-top: 0px;
 }
 
 .opening-time ul li .day {
@@ -1565,10 +1565,10 @@ td, th {
 } 
 
 .test {
-    padding-top: 35em;
+    padding-top: 45em;
     padding-bottom: 10em;
     
 }
-#überuns {
-    padding-top: 10em;
+#ueberuns {
+    padding-top: 30px;;
 }
