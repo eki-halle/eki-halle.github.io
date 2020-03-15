@@ -1572,3 +1572,8 @@ td, th {
 #ueberuns {
     padding-top: 30px;;
 }
+
+.textanpassung {
+    font-size: 20px;
+    font-family: CaviarDreams;
+}
