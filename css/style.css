@@ -112,6 +112,7 @@ ul,ol{
 	height: 2px;
 	background-color: #f36700;
 	margin: 15px 0px 30px;
+    
 }
 
 .text-center .title:after {
@@ -1424,7 +1425,7 @@ q {font-style: italic;}
     font-size: 24px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
+    text-align: left;
     color: #131313;
 }
 
@@ -1600,4 +1601,8 @@ color: white;
   width: 70%;
   max-width: 500px;
   height: auto;
+}
+
+.impressum {
+    font-family: CaviarDreams;
 }
