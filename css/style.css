@@ -131,7 +131,7 @@ ul,ol{
 	right:0;
 	top:0;
 	bottom:0;
-	background-position:center;
+	background-position:center:
 	background-size:cover;
 	z-index:-1;
 }
@@ -481,7 +481,7 @@ textarea.input {
 \*------------------------------------*/
 .banner-area {
 	position:relative;
-	padding-bottom:40px;
+	
 }
 
 .banner-area .home-wrapper {
@@ -1425,7 +1425,7 @@ q {font-style: italic;}
     font-size: 24px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: left;
+    text-align: center;
     color: #131313;
 }
 
@@ -1598,11 +1598,18 @@ color: white;
 }
 
 .responsive {
+  padding: 2em;
   width: 70%;
-  max-width: 500px;
+  max-width: 450px;
   height: auto;
 }
 
 .impressum {
+    
+    text-align: left;
+    color: #131313;
+}
+
+.impressumheading {
     font-family: CaviarDreams;
 }
