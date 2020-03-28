@@ -131,7 +131,7 @@ ul,ol{
 	right:0;
 	top:0;
 	bottom:0;
-	background-position:auto;
+	background-position:100%;
 	background-size:cover;
 	z-index:-1;
 }
