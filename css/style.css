@@ -131,7 +131,7 @@ ul,ol{
 	right:0;
 	top:0;
 	bottom:0;
-	background-position:100%;
+	background-position:center:
 	background-size:cover;
 	z-index:-1;
 }
@@ -481,7 +481,7 @@ textarea.input {
 \*------------------------------------*/
 .banner-area {
 	position:relative;
-	padding-bottom:40px;
+	
 }
 
 .banner-area .home-wrapper {
