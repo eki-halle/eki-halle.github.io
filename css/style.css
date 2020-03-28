@@ -132,7 +132,7 @@ ul,ol{
 	top:0;
 	bottom:0;
 	background-position:center;
-	background-size:100%;
+	background-size:auto;
 	z-index:-1;
 }
 
