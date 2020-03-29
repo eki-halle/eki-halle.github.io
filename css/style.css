@@ -189,11 +189,11 @@ textarea.input {
 	Navigation
 \*------------------------------------*/
 #header {
-    position: relative; /* vorhin war absolute*/
+	position:absolute;
 	left:0;
 	right:0;
-	z-index:22;
 
+	z-index:22;
 }
 
 /* --- Top Nav --- */
@@ -241,8 +241,9 @@ textarea.input {
 
 /* --- Bottom Nav --- */
 #header #bottom-nav .container {
-	padding:5px 15px;
-	background-color:#ffffff;
+	padding:10px 15px;
+	background-color:#F9F9F9;
+    width: auto;
 }
 
 .main-nav li a , .contact-nav li a {
@@ -251,12 +252,11 @@ textarea.input {
 
 .main-nav li a:hover , .contact-nav li a:hover , .main-nav li a:focus , .contact-nav li a:focus {
 	background-color:transparent;
-	color: #f36500;
+	color: #f36700;
 }
 
 .main-nav li a {
 	text-transform: uppercase;
-        font-size: 16px;
 }
 
 .contact-nav {
@@ -292,13 +292,13 @@ textarea.input {
 		-webkit-box-shadow: 0px 3px 10px -3px  rgba(0, 0, 0, 0.1);
 		        box-shadow: 0px 3px 10px -3px  rgba(0, 0, 0, 0.1);
 		background: #FFF;
-		border: 1px solid #ffffff;
+		border: 1px solid #ECECEC;
 		-webkit-animation:slide-in 0.3s;
 		        animation:slide-in 0.3s;
 	}
 
 	#header.fixed #bottom-nav .container {
-		background-color:#ffffff;
+		background-color:#FFF;
 	}
 }
 @-webkit-keyframes slide-in {
@@ -325,15 +325,15 @@ textarea.input {
 /* --- Mobile Nav --- */
 @media only screen and (max-width: 767px) {
 	#header {
-		
-		
+		position:fixed;
+		margin-top:0px;
 		-webkit-box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.1);
 		        box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.1);
 	}
 
 	#header:after {
 		content:"";
-	
+		position: fixed;
 		left:0;
 		right:0;
 		bottom:0;
@@ -384,11 +384,11 @@ textarea.input {
 		margin:0;
 		text-align:center;
 		max-height:50%;
-		overflow-y:scroll;
+		
 	}
 
 	.main-nav li a {
-		color: #ffffff;
+		color: #fff;
 	}
 
 	.contact-nav {
@@ -402,7 +402,7 @@ textarea.input {
 	}
 
 	.contact-nav li a {
-		color: white;
+		color: #fff;
 	}
 
 	.cta-nav {
