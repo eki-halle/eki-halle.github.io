@@ -134,7 +134,7 @@ ul,ol{
 	background-position:center:
 	background-size:cover;
 	z-index:-1;
-    width: auto;
+    
 }
 
 .bg-image.bg-parallax {
@@ -1303,9 +1303,9 @@ textarea.input {
     display: none;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 .getraenke {
     font-size: 35px;
@@ -1613,4 +1613,12 @@ color: white;
 
 .impressumheading {
     font-family: CaviarDreams;
+} 
+
+#logoluft {
+    padding-top: 8em;
+} 
+
+.retusche {
+    color: white;
 }
